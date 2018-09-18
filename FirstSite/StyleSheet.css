@@ -1,0 +1,154 @@
+﻿body
+{
+     background: linear-gradient(to bottom, #000099 0%, #ccffff 100%);
+     background-repeat: no-repeat;
+}
+nav {
+    margin: auto;
+    margin-left: -.25%;
+    width: 99%;
+    background-color: dimgray;
+    opacity: .95;
+    height: 60px;
+    font-size: 1.5em;
+    box-shadow: 1px 1px 10px;
+    position: fixed;
+    margin-top: -70px;
+    border-radius: 0 0 15px 15px;
+}
+nav ul {
+    position: absolute;
+    width: 100%;
+    line-height: .75;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 0 20px;
+    color: white;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+nav a:hover {
+    color: black;
+}
+
+main {
+    background-color: white;
+    height: auto;
+    width: 80%;
+    margin: auto;
+    margin-top: 70px;
+    border-radius: 10px;
+    box-shadow: 1.5px 1.5px 10px;
+}
+.title {
+    text-align: center;
+    padding: .5em;
+    border-bottom: 1px solid rgb(196, 196, 196);
+}
+.container {
+    width: 60%;
+    margin: auto;
+    display: inline-block;
+    border-right: 1px solid rgb(196, 196, 196);
+}
+.container section {
+    text-align: center;
+    padding: 15px;
+    border-bottom: 1px solid rgb(196, 196, 196);
+}
+section:last-child {
+    border: none;
+}
+#famous {
+    width: 39%;
+    float: right;
+    display: inline-block;
+    text-align: center;
+}
+#famous img {
+    width: 300px;
+    height: 250px;
+    padding: 1em 0 0 0;
+}
+#sub {
+    margin: 0;
+    color: gray;
+}
+.hotspot {
+    width: 100%;
+    border-bottom: 1px solid rgb(196, 196, 196);
+}
+.hotspot img {
+    width: 400px;
+    height: 250px;
+    margin: 2%;
+    display: inline-block;
+}
+.placeContent {
+    display: inline-block;
+    float: right;
+    width: 55%;
+}
+.description {
+    padding: 20px;
+    color: dimgray;
+}
+.eventContainer {
+    text-align: center;
+}
+#event1 {
+    border-right: 1px solid rgb(196, 196, 196);
+    border-bottom: 1px solid rgb(196, 196, 196);
+    display: inline-block;
+    width: 49%;
+}
+#event2 {
+    border-left: 1px solid rgb(196, 196, 196);
+    border-bottom: 1px solid rgb(196, 196, 196);
+    display: inline-block;
+    width: 49%;
+
+}
+#event3 {
+    border-top: 1px solid rgb(196, 196, 196);
+    border-right: 1px solid rgb(196, 196, 196);
+    display: inline-block;
+    width: 49%;
+
+}
+#event4 {
+    border-top: 1px solid rgb(196, 196, 196);
+    border-left: 1px solid rgb(196, 196, 196);
+    display: inline-block;
+    width: 49%;
+}
+#event5 {
+    border-top: 1px solid rgb(196, 196, 196);
+    border-right: 1px solid rgb(196, 196, 196);
+    display: inline-block;
+    width: 49%;
+
+}
+#event6 {
+    border-top: 1px solid rgb(196, 196, 196);
+    border-left: 1px solid rgb(196, 196, 196);
+    display: inline-block;
+    width: 49%;
+}
+#event7 {
+    border-top: 1px solid rgb(196, 196, 196);
+    border-right: 1px solid rgb(196, 196, 196);
+    display: inline-block;
+    width: 49%;
+
+}
+#event8 {
+    border-top: 1px solid rgb(196, 196, 196);
+    border-left: 1px solid rgb(196, 196, 196);
+    display: inline-block;
+    width: 49%;
+}
