@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Fibonacci Sequence</title>
+    <link rel="stylesheet" type="text/css" href="stylesheet.css" />
+   <!--<script src="fib.js"></script>-->
+    <script>
+        function Fibonacci() {
+            var i;
+            var fibonacci = [];
+
+            fibonacci[0] = 0;
+            fibonacci[1] = 1;
+            for (i = 2; i <= 19; i++) {
+                fibonacci[i] = fibonacci[i - 1] + fibonacci[i - 2];
+                document.getElementById("output").innerHTML = fibonacci;
+            }
+        }
+        function clear(elementID) {
+            document.getElementById(elementID).innerHTML = "";
+        }
+    </script>
+</head>
+<body>
+    <h1>Fibonacci Generator</h1>
+    <button type="button" onclick="Fibonacci()">Generate</button>
+    <button type="button" onclick="clear(output)">Clear</button>
+    <div id="output"></div>
+</body>
+</html>
